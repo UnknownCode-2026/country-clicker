@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;800&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+
+.pulse-click:active {
+    transform: scale(0.95);
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+}
+
+.animate-fade-up {
+    animation: fadeUp 0.5s ease-out forwards;
+}
